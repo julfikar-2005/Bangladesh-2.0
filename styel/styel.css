@@ -4,6 +4,7 @@
     font-style: normal;
 }
 
+
 body {
     margin: 0px 170px;
     background-color: rgba(235, 232, 227, 0.418);
@@ -237,49 +238,54 @@ body {
     background-color: white;
     margin-top: 30px;
     margin-bottom: 80px;
- 
+
 
 }
-.mr{
-   font-size: 20px; 
-   font-weight: 600;
-   color: rgba(0, 0, 0, 0.768);
-   margin-bottom: 0;
+
+.mr {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.768);
+    margin-bottom: 0;
 }
 
 .dolor-1 {
     color: #0e0e0ea0;
     font-size: 16px;
     font-weight: 400;
-    
+
 }
-.dolor{
+
+.dolor {
     color: #0e0e0ea0;
     font-size: 16px;
     font-weight: 400;
-    
-    
+
+
 }
+
 /* Dr. Muhammad Yunus part end */
 /* Recent News part start */
-.news{
+.news {
     font-size: 40px;
     font-weight: bold;
     color: #0E0E0E;
-   
+
 }
-.news-title{
+
+.news-title {
     font-size: 16px;
     font-weight: 400;
     color: #0e0e0ea0;
-    
+
 }
 
-.jul-img{
+.jul-img {
     border-radius: 30px;
     height: 300px;
 }
-.satelite{
+
+.satelite {
     display: flex;
     align-items: center;
     /* height: 402px; */
@@ -288,20 +294,23 @@ body {
     gap: 50px;
     padding: 40px 40px;
     border-radius: 16px;
-   background-color: white;
-   margin-bottom: 40px;
+    background-color: white;
+    margin-bottom: 40px;
 }
-.Bangladesh{
+
+.Bangladesh {
     font-size: 32px;
     font-weight: bold;
     color: #0e0e0ec4;
 }
-.Date{
-   font-size: 16px;
-   font-weight: 400;
-   color: #0e0e0ea0;
+
+.Date {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0ea0;
 }
-.read{
+
+.read {
     color: white;
     background-color: #006A50;
     padding: 13px 26px;
@@ -310,33 +319,39 @@ body {
     font-size: 18px;
     font-weight: 600;
 }
-.read:hover{
+
+.read:hover {
     background-color: #06ca6e;
 }
+
 /* Recent News part end */
 /* Donate Today part start */
 
-.today{
+.today {
     text-align: center;
 }
-.donate{
+
+.donate {
     font-size: 40px;
     font-weight: bold;
     color: #0E0E0E;
     margin-bottom: 20px;
 }
-.the{
+
+.the {
     font-size: 16px;
     font-weight: 400;
     color: #0e0e0ea0;
-    
+
 }
-.taka{
+
+.taka {
     display: flex;
-   justify-content: space-between;
-       
+    justify-content: space-between;
+
 }
-.taka-1{
+
+.taka-1 {
     display: flex;
     text-align: center;
     align-items: center;
@@ -349,36 +364,124 @@ body {
     margin-top: 30px;
     margin-bottom: 32px;
 }
-.taka-2{
+
+.taka-2 {
     background-color: #C6E4D6;
 }
-.input-filed{
+
+.input-filed {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.input{
+
+.input {
     height: 64px;
     width: 1350px;
     justify-content: center;
     margin-bottom: 32px;
     border: none;
     border-bottom: 1px solid #D5D6D8;
-    
+
 }
-.input::placeholder{
+
+.input::placeholder {
     text-align: center;
 }
-.done-now{
-   color: white;
-   font-size: 18px;
-   font-weight: 600;
-   background-color: #006A50;
-   border: none;
-   border-radius: 8px;
+
+.done-now {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
     padding: 17px 34px;
     margin-bottom: 80px;
 }
-.done-now:hover{
+
+.done-now:hover {
     background-color: #06ca6e;
+}
+
+/* Donate Today part end */
+/* Subscribe Newsletter part start */
+.Subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 395px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin-bottom: 80px;
+
+}
+
+.Newsletter {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 0px;
+}
+
+.inclusive {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0ea0;
+    margin-bottom: 50px;
+
+}
+
+.serch {
+    display: flex;
+
+}
+
+.serch input {
+    border: none;
+    height: 55px;
+    width: 600px;
+    padding: 18px 400px 18px 48px;
+    border-radius: 10px 0 0 10px;
+}
+
+.Subscribe-btn {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 17px 34px;
+    border: none;
+    background-color: #006A50;
+    border-radius: 0 10px 10px 0;
+    width: 150px;
+
+}
+
+.Subscribe-btn:hover {
+    background-color: #06ca6e;
+}
+
+/* Subscribe Newsletter part end */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 226px;
+    background-color: white;
+   
+
+}
+
+.footer-img {
+    display: flex;
+    gap: 20px;
+}
+.lust{
+    border: none;
+    border-bottom: 1px solid #d5d6d87c;
+   
 }

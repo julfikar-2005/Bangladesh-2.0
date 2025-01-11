@@ -6,6 +6,7 @@
 
 body {
     margin: 0px 170px;
+    background-color: rgba(235, 232, 227, 0.418);
 }
 
 /* nevbar start */
@@ -152,7 +153,7 @@ body {
 .vision {
     font-size: 20px;
     font-weight: bold;
-    color: rgba(0, 0, 0, 0.573);
+    color: rgba(0, 0, 0, 0.768);
 }
 
 .access {
@@ -183,13 +184,15 @@ body {
     padding: 30px;
     border-radius: 16px;
 }
-.digital-3{
+
+.digital-3 {
     background-color: #F7EBCF;
     height: 250px;
     width: 450px;
     padding: 30px;
     border-radius: 16px;
 }
+
 .btn-2 {
     font-size: 16px;
     font-weight: 600;
@@ -203,6 +206,7 @@ body {
 .btn-2:hover {
     background-color: #06ca6e;
 }
+
 .btn-3 {
     font-size: 16px;
     font-weight: 600;
@@ -216,4 +220,96 @@ body {
 .btn-3:hover {
     background-color: #06ca6e;
 }
+
 /* The Vision of Future end */
+
+/* Dr. Muhammad Yunus part start */
+.dr {
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: 1px solid #D5D6D8;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 80px;
+ 
+
+}
+.mr{
+   font-size: 20px; 
+   font-weight: 600;
+   color: rgba(0, 0, 0, 0.768);
+   margin-bottom: 0;
+}
+
+.dolor-1 {
+    color: #0e0e0ea0;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.dolor{
+    color: #0e0e0ea0;
+    font-size: 16px;
+    font-weight: 400;
+    
+    
+}
+/* Dr. Muhammad Yunus part end */
+/* Recent News part start */
+.news{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+   
+}
+.news-title{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0ea0;
+    
+}
+
+.jul-img{
+    border-radius: 30px;
+    height: 300px;
+}
+.satelite{
+    display: flex;
+    align-items: center;
+    /* height: 402px; */
+    justify-content: center;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 40px 40px;
+    border-radius: 16px;
+   background-color: white;
+   margin-bottom: 40px;
+}
+.Bangladesh{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0e0e0ec4;
+}
+.Date{
+   font-size: 16px;
+   font-weight: 400;
+   color: #0e0e0ea0;
+}
+.read{
+    color: white;
+    background-color: #006A50;
+    padding: 13px 26px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.read:hover{
+    background-color: #06ca6e;
+}

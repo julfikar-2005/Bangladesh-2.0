@@ -1,0 +1,102 @@
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    
+    font-style: normal;}
+body{
+    margin: 0px 170px;
+}
+/* nevbar start */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bd{
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: bold;
+    
+}
+.sing-in{
+    border: none;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+}
+/* nevbar end */
+/* banner part start */
+.hero{
+    display: flex;
+    height: 560px;
+    justify-content: center;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 59px;
+    
+}
+.hi{
+    font-size: 15px;
+    font-weight: 500;
+    color: #0e0e0e97;
+    
+}
+.idea{
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 13px;
+    
+}
+.New{
+    color: #FFFFFF;
+    background-color: #006A50;
+    padding: 17px 32px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+   font-size: 18px;
+   font-weight: 600;
+   cursor: pointer;
+
+}
+.New:hover{
+    background-color: #06ca6e;
+}
+/* banner part end */
+/* Pillars of "Bangladesh 2.0" start */
+
+.Pillars{
+   font-size: 40px; 
+   font-weight: bold;
+   margin-top: 80px;
+  
+}
+.card-icon{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 55px;
+    
+}
+.card{
+    background-color: #ffffff;
+    height: 200px;
+    width: 280px;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid #D5D6D8;
+}
+.title{
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sub-titel{
+    color: #0e0e0ea0;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Pillars of "Bangladesh 2.0" end */
